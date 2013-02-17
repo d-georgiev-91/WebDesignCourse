@@ -1,0 +1,26 @@
+.nonvisible, body ul#biggerImg input, body ul#biggerImg input + label {
+  display: none; }
+
+.visible, body ul#biggerImg input:checked + label {
+  display: block; }
+
+body, label, ul, li, img, input {
+  border: 0;
+  padding: 0;
+  margin: 0; }
+
+body ul {
+  list-style-type: none; }
+  body ul#thumbnail {
+    margin-left: 15%;
+    margin-top: 1%; }
+    body ul#thumbnail li {
+      display: inline-block; }
+      body ul#thumbnail li img {
+        width: 150px;
+        height: 150px;
+        margin-right: 5px; }
+  body ul#biggerImg {
+    margin-left: 15%;
+    margin-top: 2%; }
+
